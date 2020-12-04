@@ -529,6 +529,8 @@ img {
 
 .btn-style-two {
   position: relative;
+  text-align: center;
+  display: inline-block;
   padding: 15px 32px 15px;
   line-height: 24px;
   background: #6734c2;
