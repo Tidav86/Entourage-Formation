@@ -12,8 +12,8 @@ $('#submit').on('click',function(){
       tel: $('#tel').val(),
     },
     success:function(data){
-      $('.business_form_custom.mt-3').empty();
-      $('.business_form_custom.mt-3').append('<h3> Votre demande a ete recu.</h3>');
+      $('.business_form_custom').empty();
+      $('.business_form_custom').append('<h3> Votre demande a ete recu.</h3>');
     },
     async:false
   });
