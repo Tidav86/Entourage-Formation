@@ -393,8 +393,8 @@ p {
 
 .block2 .bureautique-text {
   font-size: 20px;
-  margin: 25px 20px;
-  padding: 35px 0px;
+  margin: 40px 20px;
+  padding: 20px 0px;
 }
 
 .block2 .block-2-1,
@@ -1776,7 +1776,7 @@ img {
 
 .slider .slide {
   position: relative;
-  padding: 185px 0px;
+  padding: 100px 0px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -4242,3 +4242,11 @@ img {
 .text {
   text-align: justify !important;
 }
+
+.slider h2 {
+    text-shadow: 2px 2px 5px black;
+  }
+
+  .slider .text {
+    text-shadow: 2px 2px 5px black;
+  }

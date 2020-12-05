@@ -446,7 +446,7 @@
     font-size: 16px;
   }
   .slider .slide {
-    padding: 120px 0px;
+    padding: 50px 0px;
   }
   .corpo-header .outer-box .option-box > li {
     margin-left: 0px;
@@ -652,5 +652,80 @@
   .block2 .block-2 video {
     height: 15em;
     justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 378px) {
+  .block2 .block-2 video {
+    height: 15em;
+    justify-content: center;
+  }
+
+  .block1 .block .block1-list {
+    padding: 5px 5px;
+  }
+
+  .block1 .formation-list {
+    margin-top: 5px;
+  }
+
+  .block1 .formation-list .row {
+    margin: 0px 5px;
+  }
+
+  .transition {
+    margin: 5px 15px;
+  }
+  .transition-title h2 {
+    font-size: 18px;
+  }
+
+  .transition-title .text {
+    font-size: 12px;
+  }
+
+  .transition-title h1 {
+    font-size: 26px;
+  }
+
+  .main-section .form-content .radio-group .radio-content {
+    padding-right: 15px;
+    font-size: 14px;
+  }
+  .third-container .form-content .langue-page {
+    display: inline-block;
+    max-width: 15% !important;
+  }
+  .block1 .formation-list .formation-content-list {
+    font-size: 12px;
+  }
+
+  .transition-title {
+    margin: 20px 0px;
+    padding: 0px 0px;
+  }
+
+  .block2 .title-block h4 {
+    padding: 10px 20px;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+
+  .second-container .formation h2 {
+    font-size: 18px;
+  }
+  .second-container .formation h3 {
+    font-size: 20px;
+  }
+  .button1 {
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 3px;
+    transition: all 0.3s ease-in 0s;
   }
 }
