@@ -393,8 +393,8 @@ p {
 
 .block2 .bureautique-text {
   font-size: 20px;
-  margin: 40px 20px;
-  padding: 20px 0px;
+  margin: 30px 20px;
+  padding: 25px 0px;
 }
 
 .block2 .block-2-1,
@@ -1776,7 +1776,7 @@ img {
 
 .slider .slide {
   position: relative;
-  padding: 100px 0px;
+  padding: 80px 0px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -1788,7 +1788,7 @@ img {
   font-size: 74px;
   font-weight: 600;
   line-height: 1.1em;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   opacity: 0;
   text-align: center !important;
   -webkit-transition: all 1000ms ease;
@@ -1883,6 +1883,38 @@ img {
 }
 
 .slider .active .text {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
+  transition-delay: 2000ms;
+}
+
+.slider .text-nous {
+  position: relative;
+  color: #ffffff;
+  font-size: 16px;
+  opacity: 0;
+  line-height: 1.7em;
+  font-weight: 300;
+  margin-bottom: 10px;
+  text-align: center !important;
+  -webkit-transition: all 1000ms ease;
+  -moz-transition: all 100ms ease;
+  -ms-transition: all 1000ms ease;
+  -o-transition: all 1000ms ease;
+  transition: all 1000ms ease;
+  -webkit-transform: translateY(50px);
+  -moz-transform: translateY(50px);
+  -ms-transform: translateY(50px);
+  -o-transform: translateY(50px);
+  transform: translateY(50px);
+  font-family: "Poppins", sans-serif;
+}
+
+.slider .active .text-nous {
   opacity: 1;
   -webkit-transform: translateY(0);
   -moz-transform: translateY(0);
@@ -3359,9 +3391,10 @@ img {
 
 .main-section .form-content p {
   text-align: center;
-  font-weight: bold;
+  font-weight: 600;
   text-decoration: underline;
   margin-bottom: 5px;
+  font-size:16px;
 }
 
 .main-section .form-content .radio-group {
@@ -4245,8 +4278,11 @@ img {
 
 .slider h2 {
     text-shadow: 2px 2px 5px black;
-  }
+}
+.slider .text {
+  text-shadow: 2px 2px 5px black;
+}
 
-  .slider .text {
-    text-shadow: 2px 2px 5px black;
-  }
+.slider .text-nous {
+  text-shadow: 2px 2px 5px black;
+}

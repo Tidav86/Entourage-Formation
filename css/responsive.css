@@ -16,9 +16,16 @@
   .page-wrapper {
     overflow: hidden;
   }
+  .block2 .block-2 .video {
+    height: 22em;
+  }
 }
 
 @media only screen and (max-width: 1140px) {
+  .block2 .block-2 .video {
+    height: 20em;
+  }
+
   .corpo-header {
     margin: 0px !important;
   }
@@ -47,9 +54,6 @@
   }
 }
 
-@media only screen and (min-width: 1025px) {
-}
-
 @media only screen and (min-width: 768px) {
   .main-menu .navigation > li > ul,
   .main-menu .navigation > li > ul > li > ul {
@@ -60,6 +64,9 @@
 }
 
 @media only screen and (max-width: 1023px) {
+  .block2 .block-2 .video {
+    height: 18em;
+  }
   .corpo-header .main-box .logo-box {
     position: relative;
     left: 0px;
@@ -172,9 +179,15 @@
   .slider .text {
     font-size: 16px;
   }
+  .slider .text-nous {
+    font-size: 14px;
+  }
 }
 
 @media only screen and (max-width: 990px) {
+  .block2 .block-2 .video {
+    height: 25em;
+  }
   .video-holder {
     margin-top: 60px;
   }
@@ -445,6 +458,9 @@
   .slider .text {
     font-size: 16px;
   }
+  .slider .text-nous {
+    font-size: 14px;
+  }
   .slider .slide {
     padding: 50px 0px;
   }
@@ -505,6 +521,9 @@
 }
 
 @media only screen and (max-width: 599px) {
+  .block2 .block-2 .video {
+    height: 18em;
+  }
   .slider .price,
   .slider h3.light {
     font-size: 26px;
@@ -642,6 +661,9 @@
 }
 
 @media only screen and (max-width: 479px) {
+  .block2 .block-2 .video {
+    height: 16em;
+  }
   .corpo-header .menu-search-box .dropdown-menu {
     top: 44px;
   }
@@ -662,7 +684,7 @@
 
 @media only screen and (max-width: 378px) {
   .block2 .block-2 video {
-    height: 15em;
+    height: 10em;
     justify-content: center;
   }
 
