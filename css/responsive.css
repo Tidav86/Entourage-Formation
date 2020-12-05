@@ -13,6 +13,12 @@
 }
 
 @media only screen and (max-width: 1340px) {
+  .block2 .bureautique-text {
+    font-size: 18px;
+    margin: 20px 20px;
+    padding: 15px 0px;
+  }
+
   .page-wrapper {
     overflow: hidden;
   }
@@ -22,6 +28,12 @@
 }
 
 @media only screen and (max-width: 1140px) {
+  .block2 .bureautique-text {
+    font-size: 15px;
+    margin: 20px 20px;
+    padding: 15px 0px;
+  }
+
   .block2 .block-2 .video {
     height: 20em;
   }
@@ -64,6 +76,12 @@
 }
 
 @media only screen and (max-width: 1023px) {
+  .block2 .bureautique-text {
+    font-size: 15px;
+    margin: 15px 20px;
+    padding: 15px 0px;
+  }
+
   .block2 .block-2 .video {
     height: 18em;
   }
@@ -194,6 +212,11 @@
   .contact-section:before {
     width: 50%;
     height: 76%;
+  }
+  .block2 .bureautique-text {
+    font-size: 16px;
+    margin: 20px 20px;
+    padding: 15px 0px;
   }
 }
 
@@ -646,7 +669,7 @@
   }
 
   .main-section .form-content {
-    margin: 5px 20px !important;
+    margin: 5px 0px !important;
   }
 
   .third-container .form-content .langue-page {
@@ -656,7 +679,7 @@
 
   .third-container .form-content .software-page {
     display: inline-block;
-    max-width: 12% !important;
+    max-width: 8% !important;
   }
 }
 
@@ -716,8 +739,8 @@
   }
 
   .main-section .form-content .radio-group .radio-content {
-    padding-right: 15px;
-    font-size: 14px;
+    padding: 0px 10px;
+    font-size: 13px;
   }
   .third-container .form-content .langue-page {
     display: inline-block;
@@ -726,7 +749,7 @@
 
   .third-container .form-content .software-page {
     display: inline-block;
-    max-width: 12% !important;
+    max-width: 5% !important;
   }
 
   .block1 .formation-list .formation-content-list {
